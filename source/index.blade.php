@@ -1,3 +1,6 @@
+---
+ogImage: /assets/images/salon-og.jpg
+---
 @extends('_layouts.main')
 
 @section('body')

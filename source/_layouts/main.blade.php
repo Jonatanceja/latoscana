@@ -15,7 +15,7 @@
         <meta property="og:url" content="{{ $page->getUrl() }}">
         <meta property="og:title" content="{{ $page->title }}">
         <meta property="og:description" content="{{ $page->description }}">
-        <meta property="og:image" content="{{ $page->baseUrl }}/assets/images/salon.jpg">
+        <meta property="og:image" content="{{ $page->baseUrl }}{{ $page->ogImage ?? '/assets/images/salon-og.jpg' }}">
         <meta property="og:locale" content="es_MX">
         <meta property="og:site_name" content="La Toscana · Salón de Eventos &amp; Banquetes">
 
@@ -23,7 +23,7 @@
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="{{ $page->title }}">
         <meta name="twitter:description" content="{{ $page->description }}">
-        <meta name="twitter:image" content="{{ $page->baseUrl }}/assets/images/salon.jpg">
+        <meta name="twitter:image" content="{{ $page->baseUrl }}{{ $page->ogImage ?? '/assets/images/salon-og.jpg' }}">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

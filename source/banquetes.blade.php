@@ -1,3 +1,6 @@
+---
+ogImage: /assets/images/banquetes-og.jpg
+---
 @extends('_layouts.main')
 
 @section('body')
