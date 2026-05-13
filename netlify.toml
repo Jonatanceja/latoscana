@@ -1,0 +1,12 @@
+[build]
+  command = "composer install --no-dev --no-interaction && npm ci && npm run production"
+  publish = "build_production"
+
+[build.environment]
+  PHP_VERSION = "8.3"
+  NODE_VERSION = "20"
+
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
