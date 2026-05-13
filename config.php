@@ -3,7 +3,7 @@
 return [
     'production' => false,
     'baseUrl' => '',
-    'title' => 'Toscana',
+    'title' => 'La Toscana',
     'description' => 'Salón de Eventos y Banquetes Toscana.',
     'collections' => [],
 ];
