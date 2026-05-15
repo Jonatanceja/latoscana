@@ -55,7 +55,10 @@ ogImage: /assets/images/banquetes-og.jpg
 
     {{-- HERO --}}
     <section id="inicio" class="relative h-72 md:h-[32rem] overflow-hidden">
-        <div class="absolute inset-0 bg-cover bg-center" style="background-image:url('/assets/images/banquetes.jpg')"></div>
+        <picture class="absolute inset-0 w-full h-full">
+            <source srcset="/assets/images/banquetes.webp" type="image/webp">
+            <img src="/assets/images/banquetes.jpg" alt="Banquetes La Toscana" class="w-full h-full object-cover">
+        </picture>
         <div class="absolute inset-0" style="background:rgba(60,36,21,0.5)"></div>
         <div class="relative flex flex-col items-center justify-center h-full text-center px-4">
             <p class="text-sm tracking-[0.3em] uppercase mb-2" style="color:#fdcd9f">La Toscana</p>
@@ -120,8 +123,10 @@ ogImage: /assets/images/banquetes-og.jpg
                 ] as [$name, $price, $items, $wa, $img])
                 <div class="card-lift bg-white rounded-2xl overflow-hidden flex flex-col" style="border:1px solid #e7b98b">
                     <div class="group aspect-video overflow-hidden relative">
-                        <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
-                             style="background-image:url('{{ $img ?? '/assets/images/banquetes.jpg' }}')"></div>
+                        <picture class="absolute inset-0 w-full h-full">
+                            <source srcset="{{ str_replace('.jpg', '.webp', $img ?? '/assets/images/banquetes.jpg') }}" type="image/webp">
+                            <img src="{{ $img ?? '/assets/images/banquetes.jpg' }}" alt="{{ $name }}" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                        </picture>
                         <div class="absolute inset-0 transition-opacity duration-300 group-hover:opacity-80"
                              style="background:linear-gradient(to top, rgba(60,36,21,0.7), transparent)"></div>
                         <div class="absolute bottom-0 left-0 p-4">

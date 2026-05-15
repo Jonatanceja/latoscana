@@ -8,8 +8,10 @@ ogImage: /assets/images/salon-og.jpg
 
     {{-- Salón de Eventos --}}
     <a href="/salon-de-eventos" class="relative w-full h-1/2 md:w-1/2 md:h-full overflow-hidden group block">
-        <div class="absolute inset-0 bg-cover bg-center scale-100 group-hover:scale-105 transition-transform duration-700 ease-in-out"
-             style="background-image: url('/assets/images/salon.jpg')"></div>
+        <picture class="absolute inset-0 w-full h-full">
+            <source srcset="/assets/images/salon.webp" type="image/webp">
+            <img src="/assets/images/salon.jpg" alt="Salón de Eventos La Toscana" class="w-full h-full object-cover scale-100 group-hover:scale-105 transition-transform duration-700 ease-in-out">
+        </picture>
         <div class="absolute inset-0 bg-black/50 group-hover:bg-black/35 transition-colors duration-500"></div>
         <div class="relative flex flex-col items-center justify-center h-full gap-3">
             <span class="w-12 h-px bg-white/60"></span>
@@ -20,8 +22,10 @@ ogImage: /assets/images/salon-og.jpg
 
     {{-- Banquetes --}}
     <a href="/banquetes" class="relative w-full h-1/2 md:w-1/2 md:h-full overflow-hidden group block">
-        <div class="absolute inset-0 bg-cover bg-center scale-100 group-hover:scale-105 transition-transform duration-700 ease-in-out"
-             style="background-image: url('/assets/images/banquetes.jpg')"></div>
+        <picture class="absolute inset-0 w-full h-full">
+            <source srcset="/assets/images/banquetes.webp" type="image/webp">
+            <img src="/assets/images/banquetes.jpg" alt="Banquetes La Toscana" class="w-full h-full object-cover scale-100 group-hover:scale-105 transition-transform duration-700 ease-in-out">
+        </picture>
         <div class="absolute inset-0 bg-black/50 group-hover:bg-black/35 transition-colors duration-500"></div>
         <div class="relative flex flex-col items-center justify-center h-full gap-3">
             <span class="w-12 h-px bg-white/60"></span>

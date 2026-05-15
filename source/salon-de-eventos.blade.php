@@ -59,7 +59,10 @@ ogImage: /assets/images/salon-og.jpg
 
     {{-- HERO --}}
     <section id="inicio" class="relative h-72 md:h-96 overflow-hidden">
-        <div class="absolute inset-0 bg-cover bg-center" style="background-image:url('/assets/images/salon.jpg')"></div>
+        <picture class="absolute inset-0 w-full h-full">
+            <source srcset="/assets/images/salon.webp" type="image/webp">
+            <img src="/assets/images/salon.jpg" alt="Salón de Eventos La Toscana" class="w-full h-full object-cover">
+        </picture>
         <div class="absolute inset-0" style="background:rgba(60,36,21,0.45)"></div>
         <div class="relative flex flex-col items-center justify-center h-full text-center px-4">
             <p class="text-sm tracking-[0.3em] uppercase mb-2" style="color:#fdcd9f">La Toscana</p>
@@ -154,7 +157,10 @@ ogImage: /assets/images/salon-og.jpg
                 ] as [$label, $img])
                 <div class="group relative rounded-xl overflow-hidden aspect-square cursor-pointer" style="background:#e7b98b">
                     @if($img)
-                        <img src="{{ $img }}" alt="{{ $label }}" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                        <picture class="absolute inset-0 w-full h-full">
+                            <source srcset="{{ str_replace('.jpg', '.webp', $img) }}" type="image/webp">
+                            <img src="{{ $img }}" alt="{{ $label }}" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                        </picture>
                     @else
                         <div class="absolute inset-0 flex items-center justify-center transition-opacity duration-300 group-hover:opacity-0">
                             <span class="text-xs tracking-wider text-center px-2" style="color:rgba(60,36,21,0.35)">Foto próximamente</span>
@@ -175,7 +181,10 @@ ogImage: /assets/images/salon-og.jpg
         <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-10 items-center">
 
             <div class="card-lift rounded-2xl overflow-hidden aspect-[3/4]">
-                <img src="/assets/images/alberca.jpg" alt="Alberca La Toscana" class="w-full h-full object-cover">
+                <picture class="w-full h-full">
+                    <source srcset="/assets/images/alberca.webp" type="image/webp">
+                    <img src="/assets/images/alberca.jpg" alt="Alberca La Toscana" class="w-full h-full object-cover">
+                </picture>
             </div>
 
             <div class="flex flex-col gap-6">
@@ -207,10 +216,16 @@ ogImage: /assets/images/salon-og.jpg
                 </div>
                 <div class="grid grid-cols-2 gap-3">
                     <div class="card-lift rounded-xl overflow-hidden aspect-video">
-                        <img src="/assets/images/alberca-adicional.jpg" alt="Alberca La Toscana" class="w-full h-full object-cover">
+                        <picture class="w-full h-full">
+                            <source srcset="/assets/images/alberca-adicional.webp" type="image/webp">
+                            <img src="/assets/images/alberca-adicional.jpg" alt="Alberca La Toscana" class="w-full h-full object-cover">
+                        </picture>
                     </div>
                     <div class="card-lift rounded-xl overflow-hidden aspect-video">
-                        <img src="/assets/images/fiesta-alberca.jpg" alt="Fiesta en alberca" class="w-full h-full object-cover">
+                        <picture class="w-full h-full">
+                            <source srcset="/assets/images/fiesta-alberca.webp" type="image/webp">
+                            <img src="/assets/images/fiesta-alberca.jpg" alt="Fiesta en alberca" class="w-full h-full object-cover">
+                        </picture>
                     </div>
                 </div>
             </div>
