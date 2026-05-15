@@ -110,12 +110,14 @@ lcpImage: /assets/images/banquetes.webp
                         'Tacos dorados de rajas, papa, frijol y requesón',
                         'Salsas y complementos',
                         'Agua fresca de Jamaica y horchata',
+                        '2 cartones de cerveza de 250ml Corona',
                     ], 'Antojitos%20Mexicanos', null],
                     ['Birria', '$120', [
                         'Birria estilo Jalisco',
                         'Sopa de arroz y Frijoles refritos',
                         'Tortillas hechas a mano',
                         'Agua fresca de Jamaica y horchata',
+                        '2 cartones de cerveza de 250ml Corona',
                         'Servicio de meseros',
                     ], 'Birria', '/assets/images/birria.jpg'],
                     ['Carnes en su Jugo', '$120', [
@@ -123,6 +125,7 @@ lcpImage: /assets/images/banquetes.webp
                         'Frijoles con tocino',
                         'Tortillas y complementos',
                         'Agua fresca de Jamaica y horchata',
+                        '2 cartones de cerveza de 250ml Corona',
                         'Servicio de meseros',
                     ], 'Carnes%20en%20su%20Jugo', '/assets/images/carne-en-su-jugo.jpg'],
                 ] as [$name, $price, $items, $wa, $img])
