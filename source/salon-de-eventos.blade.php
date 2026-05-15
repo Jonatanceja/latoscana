@@ -20,11 +20,11 @@ ogImage: /assets/images/salon-og.jpg
             <a href="#contacto"     class="hover:opacity-50 transition-opacity">Contacto</a>
         </nav>
         <div class="hidden md:flex flex-col items-end text-xs shrink-0" style="color:#603913">
-            <a href="tel:3319444460" class="flex items-center gap-1 font-semibold tracking-wider hover:opacity-50 transition-opacity">
+            <a href="tel:3319444460" class="flex items-center gap-1 font-semibold tracking-wider hover:opacity-50 transition-opacity min-h-[44px]">
                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
                 331 944 4460
             </a>
-            <a href="tel:3326531106" class="flex items-center gap-1 font-semibold tracking-wider hover:opacity-50 transition-opacity">
+            <a href="tel:3326531106" class="flex items-center gap-1 font-semibold tracking-wider hover:opacity-50 transition-opacity min-h-[44px]">
                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
                 332 653 1106
             </a>
