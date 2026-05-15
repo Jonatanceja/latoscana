@@ -85,12 +85,12 @@ ogImage: /assets/images/salon-og.jpg
                     <h2 class="text-5xl font-bold italic leading-tight" style="color:#754c29">Mega<br>Paquete</h2>
                     <p class="text-2xl font-semibold mt-2" style="color:#3c2415">¡Todo sin límite!</p>
                 </div>
-                <div class="card-lift rounded-xl p-6 bg-white cursor-default" style="border:1px solid #e7b98b">
+                <div class="card-lift rounded-xl p-6 bg-white cursor-default" style="box-shadow:0 2px 16px rgba(96,57,19,0.10)">
                     <p class="leading-relaxed" style="color:#603913">
                         <span class="font-semibold" style="color:#754c29">3 cartones de ampolleta Corona</span> en la renta del paquete mega
                     </p>
                 </div>
-                <div class="card-lift rounded-xl p-6 bg-white cursor-default" style="border:1px solid #e7b98b">
+                <div class="card-lift rounded-xl p-6 bg-white cursor-default" style="box-shadow:0 2px 16px rgba(96,57,19,0.10)">
                     <p class="font-semibold uppercase tracking-wider text-sm mb-3" style="color:#754c29">Servicios para</p>
                     <ul class="space-y-1 text-lg" style="color:#3c2415">
                         <li>XV Años</li><li>Bautizos</li><li>Comuniones Infantiles</li>
@@ -99,7 +99,7 @@ ogImage: /assets/images/salon-og.jpg
                 </div>
             </div>
 
-            <div class="card-lift rounded-xl p-6 bg-white cursor-default" style="border:1px solid #e7b98b">
+            <div class="card-lift rounded-xl p-6 bg-white cursor-default" style="box-shadow:0 2px 16px rgba(96,57,19,0.10)">
                 <p class="font-semibold uppercase tracking-wider text-sm mb-4" style="color:#754c29">Incluye</p>
                 <ul class="space-y-2" style="color:#3c2415">
                     @foreach ([
@@ -129,7 +129,7 @@ ogImage: /assets/images/salon-og.jpg
                     ['Antojitos Mexicanos','$21,900'],
                     ['Birria y Carne en su Jugo','$23,500'],
                 ] as [$label, $price])
-                <div class="card-lift rounded-2xl overflow-hidden" style="border:1px solid #e7b98b">
+                <div class="card-lift rounded-2xl overflow-hidden" style="box-shadow:0 2px 16px rgba(96,57,19,0.10)">
                     <div class="py-3 px-4" style="background:#754c29">
                         <p class="font-semibold tracking-wider uppercase text-sm text-white">{{ $label }}</p>
                     </div>
@@ -196,16 +196,16 @@ ogImage: /assets/images/salon-og.jpg
                     <p class="mt-2" style="color:#603913">en la renta de cualquier paquete</p>
                 </div>
                 <div class="grid grid-cols-2 gap-4">
-                    <div class="card-lift rounded-xl p-4 text-center cursor-default" style="background:#fdf0e0; border:1px solid #e7b98b">
+                    <div class="card-lift rounded-xl p-4 text-center cursor-default" style="background:#fdf0e0; box-shadow:0 2px 16px rgba(96,57,19,0.10)">
                         <p class="text-xs uppercase tracking-wider mb-1" style="color:#754c29">Lunes a Jueves</p>
                         <p class="text-3xl font-bold" style="color:#603913">$5,900</p>
                     </div>
-                    <div class="card-lift rounded-xl p-4 text-center cursor-default" style="background:#fdf0e0; border:1px solid #e7b98b">
+                    <div class="card-lift rounded-xl p-4 text-center cursor-default" style="background:#fdf0e0; box-shadow:0 2px 16px rgba(96,57,19,0.10)">
                         <p class="text-xs uppercase tracking-wider mb-1" style="color:#754c29">Fines de Semana</p>
                         <p class="text-3xl font-bold" style="color:#603913">$6,900</p>
                     </div>
                 </div>
-                <div class="card-lift rounded-xl p-5 cursor-default" style="background:#fdf0e0; border:1px solid #e7b98b">
+                <div class="card-lift rounded-xl p-5 cursor-default" style="background:#fdf0e0; box-shadow:0 2px 16px rgba(96,57,19,0.10)">
                     <p class="font-semibold text-sm uppercase tracking-wider mb-3" style="color:#754c29">Incluye</p>
                     <ul class="space-y-1 text-sm" style="color:#3c2415">
                         <li class="flex gap-2"><span style="color:#fcba63">✓</span> Mesas con mantel y cubre mantel para 60 personas</li>

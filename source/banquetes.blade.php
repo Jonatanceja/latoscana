@@ -121,7 +121,7 @@ ogImage: /assets/images/banquetes-og.jpg
                         'Servicio de meseros',
                     ], 'Carnes%20en%20su%20Jugo', '/assets/images/carne-en-su-jugo.jpg'],
                 ] as [$name, $price, $items, $wa, $img])
-                <div class="card-lift bg-white rounded-2xl overflow-hidden flex flex-col" style="border:1px solid #e7b98b">
+                <div class="card-lift bg-white rounded-2xl overflow-hidden flex flex-col" style="box-shadow:0 2px 16px rgba(96,57,19,0.10)">
                     <div class="group aspect-video overflow-hidden relative">
                         <picture class="absolute inset-0 w-full h-full">
                             <source srcset="{{ str_replace('.jpg', '.webp', $img ?? '/assets/images/banquetes.jpg') }}" type="image/webp">
