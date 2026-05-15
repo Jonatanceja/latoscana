@@ -23,7 +23,7 @@
                 </a>
 
                 {{-- WhatsApp --}}
-                <a href="https://wa.me/523326531106" target="_blank" rel="noopener"
+                <a href="https://wa.me/523319444460" target="_blank" rel="noopener"
                    class="flex flex-col items-center gap-1 group transition-transform duration-150 hover:scale-110 active:scale-95" aria-label="WhatsApp">
                     <span class="w-10 h-10 rounded-full flex items-center justify-center transition-colors duration-200 group-hover:bg-[#25D366]"
                           style="background:#3c2415">

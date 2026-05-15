@@ -98,27 +98,30 @@ lcpImage: /assets/images/banquetes.webp
 
                 @foreach ([
                     ['Taquiza', '$100', [
-                        'Tacos al pastor, bistec, longaniza o pollo',
-                        'Tortillas de maíz recién hechas',
-                        'Salsas, cebolla y cilantro',
-                        'Taquero incluido',
+                        'Chicharrón guisado, lengua en salsa verde, Bistec con papas, Chorizo con papas, Costilla en salsa verde y más',
+                        'Tortillas de maíz recién hechas, gorditas y quesadillas',
+                        'Pico de gallo, salsas, cebolla y cilantro',
+                        'Agua fresca de Jamaica y horchata',
+                        'Personal incluido',
                     ], 'Taquiza', '/assets/images/taquizas.jpg'],
                     ['Antojitos Mexicanos', '$110', [
-                        'Sopes, gorditas, tostadas y quesadillas',
-                        'Guisados variados a escoger',
+                        'Pozole, sopes, gorditas, tostadas, enchiladas y quesadillas',
+                        'Tacos dorados de rajas, papa, frijol y requesón',
                         'Salsas y complementos',
-                        'Servicio de meseros',
+                        'Agua fresca de Jamaica y horchata',
                     ], 'Antojitos%20Mexicanos', null],
                     ['Birria', '$120', [
                         'Birria estilo Jalisco',
-                        'Sopa de arroz',
-                        'Frijoles de olla',
-                        'Tortillas y consomé',
+                        'Sopa de arroz y Frijoles refritos',
+                        'Tortillas hechas a mano',
+                        'Agua fresca de Jamaica y horchata',
+                        'Servicio de meseros',
                     ], 'Birria', '/assets/images/birria.jpg'],
                     ['Carnes en su Jugo', '$120', [
                         'Carne de res en su propio jugo',
                         'Frijoles con tocino',
                         'Tortillas y complementos',
+                        'Agua fresca de Jamaica y horchata',
                         'Servicio de meseros',
                     ], 'Carnes%20en%20su%20Jugo', '/assets/images/carne-en-su-jugo.jpg'],
                 ] as [$name, $price, $items, $wa, $img])
@@ -144,7 +147,7 @@ lcpImage: /assets/images/banquetes.webp
                             <li class="flex gap-2"><span style="color:#fcba63">✓</span> {{ $item }}</li>
                             @endforeach
                         </ul>
-                        <a href="https://wa.me/523326531106?text=Hola,%20me%20interesa%20cotizar%20{{ $wa }}" target="_blank"
+                        <a href="https://wa.me/523319444460?text=Hola,%20me%20interesa%20cotizar%20{{ $wa }}" target="_blank"
                            class="btn-press mt-auto text-center py-2 px-4 rounded-full text-sm font-semibold text-white"
                            style="background:#a97c50">Cotizar por WhatsApp</a>
                     </div>
@@ -224,7 +227,7 @@ lcpImage: /assets/images/banquetes.webp
             <div class="flex gap-6" style="color:#603913">
                 <a href="https://facebook.com/toscansalondeeventos" target="_blank" class="btn-press text-sm tracking-wider">Facebook</a>
                 <a href="https://instagram.com/toscansalondeeventos" target="_blank" class="btn-press text-sm tracking-wider">Instagram</a>
-                <a href="https://wa.me/523326531106" target="_blank" class="btn-press text-sm tracking-wider">WhatsApp</a>
+                <a href="https://wa.me/523319444460" target="_blank" class="btn-press text-sm tracking-wider">WhatsApp</a>
             </div>
         </div>
     </section>

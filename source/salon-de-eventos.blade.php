@@ -251,7 +251,7 @@ lcpImage: /assets/images/salon.webp
             <div class="flex gap-6" style="color:#603913">
                 <a href="https://facebook.com/toscansalondeeventos" target="_blank" class="btn-press text-sm tracking-wider">Facebook</a>
                 <a href="https://instagram.com/toscansalondeeventos" target="_blank" class="btn-press text-sm tracking-wider">Instagram</a>
-                <a href="https://wa.me/523326531106" target="_blank" class="btn-press text-sm tracking-wider">WhatsApp</a>
+                <a href="https://wa.me/523319444460" target="_blank" class="btn-press text-sm tracking-wider">WhatsApp</a>
             </div>
         </div>
     </section>
