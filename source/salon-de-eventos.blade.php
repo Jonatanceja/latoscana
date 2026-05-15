@@ -91,7 +91,7 @@ ogImage: /assets/images/salon-og.jpg
                     </p>
                 </div>
                 <div class="card-lift rounded-xl p-6 bg-white cursor-default" style="border:1px solid #e7b98b">
-                    <p class="font-semibold uppercase tracking-wider text-sm mb-3" style="color:#a97c50">Servicios para</p>
+                    <p class="font-semibold uppercase tracking-wider text-sm mb-3" style="color:#754c29">Servicios para</p>
                     <ul class="space-y-1 text-lg" style="color:#3c2415">
                         <li>XV Años</li><li>Bautizos</li><li>Comuniones Infantiles</li>
                         <li>Aniversarios</li><li>Eventos Especiales</li><li>y más...</li>
@@ -100,7 +100,7 @@ ogImage: /assets/images/salon-og.jpg
             </div>
 
             <div class="card-lift rounded-xl p-6 bg-white cursor-default" style="border:1px solid #e7b98b">
-                <p class="font-semibold uppercase tracking-wider text-sm mb-4" style="color:#a97c50">Incluye</p>
+                <p class="font-semibold uppercase tracking-wider text-sm mb-4" style="color:#754c29">Incluye</p>
                 <ul class="space-y-2" style="color:#3c2415">
                     @foreach ([
                         'Mobiliario para 100 personas','Mantelería a escoger',
@@ -121,7 +121,7 @@ ogImage: /assets/images/salon-og.jpg
     {{-- BANQUETE PRICING — white --}}
     <section id="banquetes" class="py-16 px-6 bg-white">
         <div class="max-w-4xl mx-auto text-center">
-            <p class="tracking-[0.3em] uppercase text-sm mb-2" style="color:#a97c50">Banquetes</p>
+            <p class="tracking-[0.3em] uppercase text-sm mb-2" style="color:#754c29">Banquetes</p>
             <h2 class="text-3xl font-light tracking-widest uppercase mb-10" style="color:#3c2415">Opciones de Menú</h2>
             <div class="grid md:grid-cols-3 gap-6">
                 @foreach ([
@@ -130,12 +130,12 @@ ogImage: /assets/images/salon-og.jpg
                     ['Birria y Carne en su Jugo','$23,500'],
                 ] as [$label, $price])
                 <div class="card-lift rounded-2xl overflow-hidden" style="border:1px solid #e7b98b">
-                    <div class="py-3 px-4" style="background:#a97c50">
+                    <div class="py-3 px-4" style="background:#754c29">
                         <p class="font-semibold tracking-wider uppercase text-sm text-white">{{ $label }}</p>
                     </div>
                     <div class="py-8 bg-white">
                         <p class="text-4xl font-bold" style="color:#603913">{{ $price }}</p>
-                        <p class="text-xs mt-1" style="color:#a97c50">por paquete</p>
+                        <p class="text-xs mt-1" style="color:#754c29">por paquete</p>
                     </div>
                 </div>
                 @endforeach
@@ -146,7 +146,7 @@ ogImage: /assets/images/salon-og.jpg
     {{-- GALLERY — cream --}}
     <section id="galeria" class="py-16 px-6" style="background:#fdf0e0">
         <div class="max-w-5xl mx-auto">
-            <p class="text-center tracking-[0.3em] uppercase text-sm mb-2" style="color:#a97c50">Momentos</p>
+            <p class="text-center tracking-[0.3em] uppercase text-sm mb-2" style="color:#754c29">Momentos</p>
             <h2 class="text-center text-3xl font-light tracking-widest uppercase mb-10" style="color:#3c2415">Galería</h2>
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
                 @foreach ([
@@ -197,16 +197,16 @@ ogImage: /assets/images/salon-og.jpg
                 </div>
                 <div class="grid grid-cols-2 gap-4">
                     <div class="card-lift rounded-xl p-4 text-center cursor-default" style="background:#fdf0e0; border:1px solid #e7b98b">
-                        <p class="text-xs uppercase tracking-wider mb-1" style="color:#a97c50">Lunes a Jueves</p>
+                        <p class="text-xs uppercase tracking-wider mb-1" style="color:#754c29">Lunes a Jueves</p>
                         <p class="text-3xl font-bold" style="color:#603913">$5,900</p>
                     </div>
                     <div class="card-lift rounded-xl p-4 text-center cursor-default" style="background:#fdf0e0; border:1px solid #e7b98b">
-                        <p class="text-xs uppercase tracking-wider mb-1" style="color:#a97c50">Fines de Semana</p>
+                        <p class="text-xs uppercase tracking-wider mb-1" style="color:#754c29">Fines de Semana</p>
                         <p class="text-3xl font-bold" style="color:#603913">$6,900</p>
                     </div>
                 </div>
                 <div class="card-lift rounded-xl p-5 cursor-default" style="background:#fdf0e0; border:1px solid #e7b98b">
-                    <p class="font-semibold text-sm uppercase tracking-wider mb-3" style="color:#a97c50">Incluye</p>
+                    <p class="font-semibold text-sm uppercase tracking-wider mb-3" style="color:#754c29">Incluye</p>
                     <ul class="space-y-1 text-sm" style="color:#3c2415">
                         <li class="flex gap-2"><span style="color:#fcba63">✓</span> Mesas con mantel y cubre mantel para 60 personas</li>
                         <li class="flex gap-2"><span style="color:#fcba63">✓</span> Futbolito</li>

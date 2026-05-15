@@ -90,7 +90,7 @@ ogImage: /assets/images/banquetes-og.jpg
     {{-- MENUS — cream --}}
     <section id="menus" class="py-16 px-6" style="background:#fdf0e0">
         <div class="max-w-5xl mx-auto">
-            <p class="text-center tracking-[0.3em] uppercase text-sm mb-2" style="color:#a97c50">Precios 2026</p>
+            <p class="text-center tracking-[0.3em] uppercase text-sm mb-2" style="color:#754c29">Precios 2026</p>
             <h2 class="text-center text-3xl font-light tracking-widest uppercase mb-3" style="color:#3c2415">Nuestros Menús</h2>
             <p class="text-center text-sm mb-12 max-w-xl mx-auto" style="color:#754c29">Mínimo 100 personas por servicio · Precio por persona</p>
             <div class="grid md:grid-cols-2 gap-6">

@@ -6,7 +6,7 @@
             <a href="/">
                 <img src="/assets/images/logo-toscana.svg" alt="La Toscana" class="h-16">
             </a>
-            <p class="text-sm tracking-widest uppercase" style="color:#a97c50">Salón de Eventos &amp; Banquetes</p>
+            <p class="text-sm tracking-widest uppercase" style="color:#754c29">Salón de Eventos &amp; Banquetes</p>
 
             <div class="flex items-center gap-6">
 
