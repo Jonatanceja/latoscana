@@ -102,6 +102,7 @@ lcpImage: /assets/images/banquetes.webp
                         'Tortillas de maíz recién hechas, gorditas y quesadillas',
                         'Pico de gallo, salsas, cebolla y cilantro',
                         'Agua fresca de Jamaica y horchata',
+                        '2 cartones de cerveza de 250ml Corona',
                         'Personal incluido',
                     ], 'Taquiza', '/assets/images/taquizas.jpg'],
                     ['Antojitos Mexicanos', '$110', [
