@@ -4,7 +4,7 @@ ogImage: /assets/images/salon-og.jpg
 @extends('_layouts.main')
 
 @section('body')
-<div class="relative flex flex-col md:flex-row h-screen overflow-hidden">
+<main class="relative flex flex-col md:flex-row h-screen overflow-hidden">
 
     {{-- Salón de Eventos --}}
     <a href="/salon-de-eventos" class="relative w-full h-1/2 md:w-1/2 md:h-full overflow-hidden group block">
@@ -41,5 +41,5 @@ ogImage: /assets/images/salon-og.jpg
         </div>
     </div>
 
-</div>
+</main>
 @endsection
