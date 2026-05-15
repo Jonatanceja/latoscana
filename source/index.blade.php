@@ -1,5 +1,6 @@
 ---
 ogImage: /assets/images/salon-og.jpg
+lcpImage: /assets/images/salon.webp
 ---
 @extends('_layouts.main')
 
@@ -10,7 +11,7 @@ ogImage: /assets/images/salon-og.jpg
     <a href="/salon-de-eventos" class="relative w-full h-1/2 md:w-1/2 md:h-full overflow-hidden group block">
         <picture class="absolute inset-0 w-full h-full">
             <source srcset="/assets/images/salon.webp" type="image/webp">
-            <img src="/assets/images/salon.jpg" alt="Salón de Eventos La Toscana" class="w-full h-full object-cover scale-100 group-hover:scale-105 transition-transform duration-700 ease-in-out">
+            <img src="/assets/images/salon.jpg" alt="Salón de Eventos La Toscana" class="w-full h-full object-cover scale-100 group-hover:scale-105 transition-transform duration-700 ease-in-out" fetchpriority="high">
         </picture>
         <div class="absolute inset-0 bg-black/50 group-hover:bg-black/35 transition-colors duration-500"></div>
         <div class="relative flex flex-col items-center justify-center h-full gap-3">

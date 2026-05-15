@@ -1,5 +1,6 @@
 ---
 ogImage: /assets/images/banquetes-og.jpg
+lcpImage: /assets/images/banquetes.webp
 ---
 @extends('_layouts.main')
 
@@ -57,7 +58,7 @@ ogImage: /assets/images/banquetes-og.jpg
     <section id="inicio" class="relative h-72 md:h-[32rem] overflow-hidden">
         <picture class="absolute inset-0 w-full h-full">
             <source srcset="/assets/images/banquetes.webp" type="image/webp">
-            <img src="/assets/images/banquetes.jpg" alt="Banquetes La Toscana" class="w-full h-full object-cover">
+            <img src="/assets/images/banquetes.jpg" alt="Banquetes La Toscana" class="w-full h-full object-cover" fetchpriority="high">
         </picture>
         <div class="absolute inset-0" style="background:rgba(60,36,21,0.5)"></div>
         <div class="relative flex flex-col items-center justify-center h-full text-center px-4">

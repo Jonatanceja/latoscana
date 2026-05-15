@@ -25,6 +25,11 @@
         <meta name="twitter:description" content="{{ $page->description }}">
         <meta name="twitter:image" content="{{ $page->baseUrl }}{{ $page->ogImage ?? '/assets/images/salon-og.jpg' }}">
 
+        {{-- LCP preload --}}
+        @if($page->lcpImage)
+        <link rel="preload" as="image" href="{{ $page->lcpImage }}" type="image/webp">
+        @endif
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Joan&family=Lato:wght@300;400;700&display=swap"
